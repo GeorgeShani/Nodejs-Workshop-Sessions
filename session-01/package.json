@@ -1,13 +1,8 @@
 {
   "name": "session-01",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "node --env-file=.env index.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "module"
+    "start": "node --env-file=.env info.js",
+    "dev": "node --watch --env-file=.env info.js"
+  }
 }
